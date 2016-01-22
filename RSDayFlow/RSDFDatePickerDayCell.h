@@ -93,6 +93,11 @@
  */
 @property (nonatomic, strong) UIImage *markImage;
 
+/**
+ Set Custom Mark Image Frame
+ */
+@property (nonatomic)CGRect markImageViewFrame;
+
 ///---------------------------------------
 /// @name Accessing Attributes of the View
 ///---------------------------------------
